@@ -1,0 +1,582 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a, ul{
+   text-decoration: none;
+   list-style: none;
+}
+
+
+/*****************************
+ * font-family: 'Raleway', sans-serif;
+ * font-family: 'Oswald', sans-serif;
+ * ***************************/
+
+
+ /*******************************
+  * Navbar CSS Section
+  * *****************************/
+
+ .top-bar{
+ 	width: 100%;
+ 	background-color: rgb(0, 0, 0);
+ 	border-bottom: 1px solid #777;
+ 	padding: 10px 0px;
+
+ }
+ .navbar-brand{
+ 	color: white;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: 600;
+ 	letter-spacing: 2px;
+ }
+ .navbar-brand span{
+ 	color: #F24C4C;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: 600;
+ }
+ .navbar-brand:hover{
+ 	color: white!important;
+
+ }
+ .nav-link{
+ 	color: white!important;
+ 	font-family: 'Oswald', sans-serif;
+ 	font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-right: 30px;
+    transition: 0.5;
+ }
+ .nav-link:hover{
+ 	color:#F24C4C !important ;
+ 	transition: 0.5;
+ }
+ 
+ .con-btn{
+ 	background: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding:8px 10px ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    transition: 0.5s;
+ }
+ .con-btn a{
+   color: white;
+   font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+ .con-btn:hover{
+	background: transparent;
+   border: 2px solid white;
+   transition: 0.5s;
+}
+.con-btn a:hover{
+   color: #ff8b38 !important;
+   transition: 0.5s;
+
+}
+
+
+
+ /*******************************
+  * Banner CSS Section
+  * *****************************/
+
+.banner{
+	width: 100%;
+	padding-top: 60px;
+	background: rgb(0, 0, 0);
+	color: white;
+	position: relative;
+}
+.ban-img{
+	position: absolute;
+	top: 0;
+	right: 110px;	
+}
+
+
+.ban-title{
+	height: 62vh;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left:160px ;
+}
+.ban-title h2{
+	font-family: 'Oswald', sans-serif;
+    font-size: 76px;
+    font-weight: 500;
+    padding-bottom: 18px;
+
+}
+.ban-title h2 span{
+	color: #F24C4C;
+	
+}
+.ban-title p{
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+	
+}
+.ban-title p span{
+   color: #ff8b38;
+}
+.ban-btn{
+	background: #F24C4C;
+	font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+.ban-btn:hover{
+	background: transparent;
+	color: #ff8b38;
+	border: 1px solid white;
+
+}
+
+/*******************************
+  * About CSS Section
+  * *****************************/
+
+
+.about{
+   width: 100%;
+   padding: 40px 0px;
+   background-color: #191A19;
+   border: 1px solid rgb(36, 36, 36) ;
+   box-shadow: 0 3px 15px rgba(32, 32, 32, 4.0) ;
+   
+   
+}
+
+.about-me{
+   margin-top: 80px;
+   transition: 0.5s;
+}
+.about-me h3{
+   color: white;
+   font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+   
+}
+.about-me h5{
+   color: white;
+   font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+.about-me p{
+   color: white;
+   font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-right: 62px;
+}
+
+.about-me:hover{
+   border: 1px solid rgb(0, 0, 0);
+   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+   padding: 24px;
+   border-radius: 7px;
+   transition: 0.5s;
+}
+
+.about-me h5 span{
+   color: #F24C4C !important;
+
+}
+
+.ab-img{
+   width: 74%;
+   border: 2px solid #777;
+   background: #080808a6;
+   border-radius: 10px;
+   padding-bottom: 2px;
+   margin-left: 80px;
+   transition: 0.5s;
+}
+.ab-img:hover{
+   border: none;
+   transition: 0.5s;
+}
+
+/*******************************
+  * Education CSS Section
+  * *****************************/
+
+.education{
+   width: 100%;
+   padding: 60px 0px;
+   background-color: #000;
+
+}
+
+.edu-title h2{
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   font-size: 48px;
+   font-weight: 500;
+   text-align: center;
+   text-transform: uppercase;
+   margin-bottom: 40px;
+
+}
+.graduation{
+   background:#080808a6 ;
+   color: white;
+   padding: 18px;
+   border-radius: 8px;
+   transition: 0.5s;
+}
+
+
+.graduation:hover{
+   border: 1px solid white;
+   box-shadow: 1px 3px 19px rgba(102, 69, 69, 0.7);
+   transition: 0.5s;
+}
+.graduation i{
+   color:#ff8b38 ;
+   font-size: 36px;
+   margin-left: 120px;
+
+}
+.graduation h3{
+   font-family: 'Raleway', sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+   padding: 12px 0px;
+   text-align: center;
+   
+}
+.graduation h5{
+   font-family: 'Raleway', sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   text-align: center;
+   
+}
+
+.graduation h5 span{
+   color:#F24C4C !important ;
+}
+.graduation p{
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 18px;
+   color: #777;
+   padding-right:24px;
+   text-align: center;
+
+   
+}
+
+/*******************************
+  * services CSS Section
+  * *****************************/
+
+.services{
+   width: 100%;
+   padding: 30px 0px;
+   background:#191A19 ;
+   text-align: center;
+}
+
+.srv-title{
+   color: white;
+   font-family: 'Oswald', sans-serif;
+   font-size: 48px;
+   font-weight: 500;
+   text-align: center;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+}
+
+.srv-iteams{
+   margin-top: 70px;
+}
+
+.srv-01{
+   color: white;
+   padding: 34px;
+   width: 80%;
+   margin-left: 60px;
+   box-shadow: 3px 5px 22px rgba(0, 0, 0, 1.0);
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.srv-01:hover{
+   transform:translateY(-18px);
+   transition: 0.5s;
+}
+.srv-01 i{
+   font-size: 28px;
+   color:#ff8b38 ;
+   width:60px ;
+   height: 60px;
+   background: transparent;
+   line-height: 60px;
+   border-radius: 100%;
+   border: 1px solid #ff8b38 ;
+   margin-bottom: 18px;
+}
+
+.srv-01 h4{
+   font-family: 'Oswald', sans-serif;
+   font-size: 28px;
+   font-weight: 500;
+
+
+}
+.srv-01 p{
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   color: #777;
+   padding-top: 12px;
+
+}
+
+.srv-02{
+   color: white;
+   padding: 34px;
+   width: 80%;
+   margin-left: 60px;
+   box-shadow: 3px 5px 22px rgba(0, 0, 0, 1.0);
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.srv-02:hover{
+   transform:translateY(-18px);
+   transition: 0.5s;
+}
+.srv-02 i{
+   font-size: 28px;
+   color:#ff8b38 ;
+   width:60px ;
+   height: 60px;
+   background: transparent;
+   line-height: 60px;
+   border-radius: 100%;
+   border: 1px solid #ff8b38 ;
+   margin-bottom: 18px;
+}
+
+.srv-02 h4{
+   font-family: 'Oswald', sans-serif;
+   font-size: 28px;
+   font-weight: 500;
+
+}
+.srv-02 h4 span{
+   color:#F24C4C ;
+
+}
+.srv-02 p{
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   color: #777;
+   padding-top: 12px;
+
+}
+
+.srv-03{
+   color: white;
+   padding: 34px;
+   width: 80%;
+   margin-left: 60px;
+   box-shadow: 3px 5px 22px rgba(0, 0, 0, 1.0);
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.srv-03:hover{
+   transform:translateY(-18px);
+   transition: 0.5s;
+}
+.srv-03 i{
+   font-size: 28px;
+   color:#ff8b38 ;
+   width:60px ;
+   height: 60px;
+   background: transparent;
+   line-height: 60px;
+   border-radius: 100%;
+   border: 1px solid #ff8b38 ;
+   margin-bottom: 18px;
+}
+
+.srv-03 h4{
+   font-family: 'Oswald', sans-serif;
+   font-size: 28px;
+   font-weight: 500;
+
+}
+.srv-03 p{
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   color: #777;
+   padding-top: 12px;
+
+}
+/*******************************
+  * web CSS Section
+  * *****************************/
+.web{
+   width: 100%;
+   padding: 60px 0px;
+   background: #000;
+}
+.web-title{
+   text-align: center;
+   color: white;
+}
+.web-title h4{
+   font-family: 'Oswald', sans-serif;
+   font-size: 28px;
+   font-weight: 500;
+
+}
+
+.web-title h4 span{
+   color:#ff8b38 ;
+   
+}
+.web-title button{
+   background: #F24C4C;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   border: none;
+   border-radius: 4px;
+   margin-top: 18px;
+   padding: 8px 38px;
+   transition: 0.4s;
+
+}
+.web-title button:hover{
+   background:transparent ;
+   color: #ff8b38;
+   border: 1px solid white;
+   transition: 0.4s;
+}
+
+/*******************************
+* Contact CSS Section
+* *****************************/
+
+.contact{
+   width: 100%;
+   background:#191A19 ;
+   padding: 60px 0px;
+   text-align: center;
+}
+.con-title h5{
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 40px;
+   margin: 0px auto;
+   width: 70%;   
+}
+.con-title strong{
+   color:#F24C4C ;
+   font-family: 'Raleway', sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+
+
+}
+
+.con-title strong:hover{
+   color: white;
+}
+.con-title p{
+   color: #ff8b38;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   margin-top: 24px;
+}
+
+.con-title p:hover{
+   color: white;
+}
+.con-title ul{
+   color: white;
+   text-align: center;
+}
+.con-title ul li i{
+   margin-right: 10px;
+   border-right: 4px solid #777;
+   padding-right: 24px;
+   color:#F24C4C ;
+   transition: 0.5s;
+}
+.con-title ul li i:hover{
+   color: white;
+   transition: 0.5s;
+}
+.copyright{
+   margin-top: 80px;
+   color: white;
+}
+.copyright h6{
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+
+}
+
+.copyright h6 span{
+   color:#F24C4C ;
+   
+}
+.copyright h6 span:hover{
+   color:#ff8b38 ;
+}
+
+
+
+
+/*******************************
+* Thank You
+* *****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
